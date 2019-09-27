@@ -31,6 +31,7 @@ DATA ascii
 ·VERSION –指定PCD文件版本
 
 ·FIELDS –指定一个点可以有的每一个维度和字段的名字。例如：
+
 FIELDS x y z                                   # XYZ data
 FIELDS x y z rgb                          # XYZ + colors
 FIELDS x y z normal_xnormal\_y normal\_z         # XYZ + surface normals
@@ -38,6 +39,7 @@ FIELDS j1 j2 j3                                # moment invariants
 ...
 
 ·SIZE –用字节数指定每一个维度的大小。例如：
+
 unsigned char/char has 1 byte
 unsigned short/short has 2 bytes
 unsignedint/int/float has 4 bytes
